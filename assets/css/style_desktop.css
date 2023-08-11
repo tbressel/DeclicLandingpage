@@ -66,15 +66,15 @@
   
 }
 .column1__container {
-    animation: column3vh 60s linear infinite ;
+    animation: column3vh var(--speedv) linear infinite ;
     top: -1180px;
 }
 .column2__container {
-    animation: column1vh 60s linear infinite ;
+    animation: column1vh var(--speedv) linear infinite ;
     top: -80px;
 }
 .column3__container {
-    animation: column3vh 60s linear infinite ;
+    animation: column3vh var(--speedv) linear infinite ;
     top: -1180px;
 }
 

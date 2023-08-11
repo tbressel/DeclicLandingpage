@@ -39,6 +39,12 @@
     --white000:#FFFFFF;
     --white100:#F5F5F5;
     --white200:#E6E6E6;
+
+    /*-----------  animations  ------------------ */
+    --speedv : 20s;
+    --speedv2 : 4s;
+    --speedh : 5s;
+
 }
 
 body {
@@ -56,18 +62,4 @@ h1 span {
 
 
 
-
-
-
-
-
-@keyframes fadein {
-        0% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 100%;
-        }
-}
 
