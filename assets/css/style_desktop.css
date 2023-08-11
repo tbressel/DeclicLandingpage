@@ -1,16 +1,139 @@
-@media (min-width:1000px) {   
+@media (min-width:1200px) {   
+
+
     footer {
         flex-direction: row;
         justify-content: space-around;
-        height: 80px;  
+        height: 100px;
+        max-width: 80%;
+        margin-left: 10%;
+        border-radius: 10px;
+    }
+    .email__input  {
+        padding: 10px;
+        margin: 10px;
+        
+    }
+
+    .email__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
         .email__input span {
             display: none;
         }
             .button__validate {
+                animation: fadein 1s 12s forwards;
+                opacity: 0;
                 display: initial;
+              
             }
+            .button__validate button {
+                cursor: pointer;
+                border-radius: 10px;
+                border: none;
+                background-color: var(--black900);
+                color: aliceblue;
+                padding: 17px;
+            }
+            .button__validate button:hover {
+                background-color: var(--black700);
+            }
+            .square {
+                 width: 16vw;
+                 height: 240px;
+            }
+.column__container {
+    position: absolute;
+    z-index: -2;
+    top: 0px;
+    flex-direction: row-reverse;
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+.column1__container,
+.column2__container,
+.column3__container {
+    display: block;
+    overflow:visible;
+    height: 100vh;
+    animation: none;
+    flex-direction: column;
+    left: 0px;
+  
+}
+.column1__container {
+    animation: column3vh 60s linear infinite ;
+    top: -1180px;
+}
+.column2__container {
+    animation: column1vh 60s linear infinite ;
+    top: -80px;
+}
+.column3__container {
+    animation: column3vh 60s linear infinite ;
+    top: -1180px;
 }
 
 
+.overlay__container {
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    background : linear-gradient(to right, black 25%, rgba(0, 0, 0, 0.204) 100%);
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+   
+    max-width: 28%;
+   
+    margin-left: 10%;
+    padding-left: 10%;
+    margin-top: 22px;
+    transition: 300ms ease-in-out;
+}
+
+
+.logo__container {
+    width: 40%;
+    margin-left: -30px;
+    padding-left: 0;
+}
+.text__container {
+    text-align: left;
+
+}
+
+
+.text__container h1{
+    font-size: 70px;
+    margin-left: 0;
+    white-space: nowrap;
+}
+.text__container p{
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 0;
+    padding-left: 0;
+    min-width: 500px;
+    color: var(--white000);
+    
+}
+
+.text__container p:nth-child(2) {
+    margin-bottom: 0px;
+    display: initial;
+    color: var(--black400);
+}
+
+
+
+}
 

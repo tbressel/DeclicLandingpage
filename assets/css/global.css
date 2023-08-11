@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: 'NotoSansMedium';
-    src: url(../fonts/Noto_Sans/NotoSans-Medium.ttf);
+    src: url(../fonts/Noto_Sans/NotoSans-Regular.woff);
 }
 @font-face {
     font-family: 'NotoSans-Black';
@@ -17,15 +17,25 @@
 
 
 :root {
-    --violet400: #9747FF;
+    --violet400: #4A359D;
     --violet100: #9E9EFF;
+    
     --blue400:#0D99FF;
+    --blue600:#5252EC;
+    
+    
+    --green900:#132527;
+    --green600:#03473C;
+    --green400:#046426;
+    
+    --brown400:#784F10;
+
     --black900:#000000;
-    --black800:#1E1E1E;
     --black700:#2C2C2C;
     --black600:#383838;
     --black500:#444444;
     --black400:#909090;
+    
     --white000:#FFFFFF;
     --white100:#F5F5F5;
     --white200:#E6E6E6;
@@ -43,3 +53,21 @@ h1 {
 h1 span {
     font-family: 'NotoSans-Black';
 }
+
+
+
+
+
+
+
+
+@keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 100%;
+        }
+}
+

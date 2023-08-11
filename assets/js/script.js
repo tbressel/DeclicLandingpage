@@ -1,3 +1,7 @@
+let ELEMENT__audio = document.getElementById("clic")
+
+
+
 
 let ELEMENT__sec = document.getElementById("secondes").childNodes[1];
                     console.log("Je récupère l'élément du 1er enfant de mon element :",ELEMENT__sec);
@@ -24,16 +28,17 @@ let ELEMENT__days_value = ELEMENT__days.innerText;
 
 let setIntervalID = setInterval(() => {
     Countdown();
+    ELEMENT__audio.play()
 }, 1000);
 
 
 
 function Countdown () {
     ELEMENT__sec_value --;
+
     
     if(ELEMENT__sec_value === -1){
         ELEMENT__min_value --;
-
             if(ELEMENT__min_value === -1) {
                 ELEMENT__hours_value --;
 

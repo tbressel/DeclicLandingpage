@@ -1,0 +1,51 @@
+@keyframes column1 {
+    0% {
+        transform: translateX(0);
+    }
+    
+    100% {
+        transform: translateX(-531px);
+
+    }
+}
+@keyframes column2 {
+    0% {
+        transform: translateX(0);
+    }
+    
+    100% {
+        transform: translateX(531px);
+
+    }
+}
+@keyframes column3 {
+    0% {
+        transform: translateX(0);
+    }
+    
+    100% {
+        transform: translateX(-531px);
+
+    }
+}
+@keyframes column3vh {
+    0% {
+        transform: translateY(70px);
+    }
+    
+    100% {
+        transform: translateY(1200px);
+
+    }
+}
+
+@keyframes column1vh {
+    0% {
+        transform: translateY(0);
+    }
+    
+    100% {
+        transform: translateY(-1200px);
+
+    }
+}

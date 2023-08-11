@@ -1,0 +1,27 @@
+
+
+@media  (min-width: 700px) {
+    .square {
+        width: 250px;
+        height: 200px;
+    }
+
+header {
+    transition: 300ms ease-in-out;
+}
+
+
+.text__container h1 {
+    font-size: 60px;
+    width: 50%;
+    transition: 300ms ease-in-out;
+}
+
+.text__container p {
+
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto ;
+}
+
+}
