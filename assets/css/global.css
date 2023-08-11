@@ -41,9 +41,9 @@
     --white200:#E6E6E6;
 
     /*-----------  animations  ------------------ */
-    --speedv : 20s;
-    --speedv2 : 4s;
-    --speedh : 5s;
+    --speedv : 10s;
+    --speedv2 : 10s;
+    --speedh : 10s;
 
 }
 

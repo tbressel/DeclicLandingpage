@@ -119,7 +119,7 @@ footer {
 }
 
 .column1__container {
-    animation: column1 var(--speedh) 13s linear infinite ;
+    animation: column1 var(--speedh)  linear infinite ;
     position: relative;
     display: flex;
     width: fit-content;
@@ -129,7 +129,7 @@ footer {
 
 }
 .column2__container {
-    animation: column2 var(--speedh) 13s linear infinite ;
+    animation: column2 var(--speedh)  linear infinite ;
     position: relative;
     display: flex;
     width: fit-content;
@@ -138,7 +138,7 @@ footer {
   
 }
 .column3__container {
-    animation: column1 var(--speedh) 13s linear infinite ;
+    animation: column1 var(--speedh)  linear infinite ;
     position: relative;
     display: flex;
     width: fit-content;

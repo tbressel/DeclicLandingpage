@@ -46,18 +46,18 @@ header {
 }
 
 .column1__container {
-    animation: column1ipad var(--speedv2) 13s linear infinite ;
+    animation: column1ipad var(--speedv2)  linear infinite ;
 
 
 
 }
 .column2__container {
-    animation: column2ipad var(--speedv2) 13s linear infinite ;
+    animation: column2ipad var(--speedv2)  linear infinite ;
     left: -1300px; 
   
 }
 .column3__container {
-    animation: column1ipad var(--speedv2) 13s linear infinite ;
+    animation: column1ipad var(--speedv2)  linear infinite ;
 
  
 }
