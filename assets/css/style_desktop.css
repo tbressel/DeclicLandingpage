@@ -1,0 +1,16 @@
+@media (min-width:1000px) {   
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 80px;  
+    }
+        .email__input span {
+            display: none;
+        }
+            .button__validate {
+                display: initial;
+            }
+}
+
+
+

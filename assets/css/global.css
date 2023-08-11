@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'NotoSerifDisplay-Regular';
+    src: url(../fonts/Noto_Serif_Display/static/NotoSerifDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: 'NotoSansRegular';
+    src: url(../fonts/Noto_Sans/NotoSans-Regular.woff),url(../fonts/Noto_Sans/NotoSans-Regular.woff2);
+}
+@font-face {
+    font-family: 'NotoSansMedium';
+    src: url(../fonts/Noto_Sans/NotoSans-Medium.ttf);
+}
+@font-face {
+    font-family: 'NotoSans-Black';
+    src: url(../fonts/Noto_Sans/NotoSans-Black.woff);
+}
+
+
+:root {
+    --violet400: #9747FF;
+    --violet100: #9E9EFF;
+    --blue400:#0D99FF;
+    --black900:#000000;
+    --black800:#1E1E1E;
+    --black700:#2C2C2C;
+    --black600:#383838;
+    --black500:#444444;
+    --black400:#909090;
+    --white000:#FFFFFF;
+    --white100:#F5F5F5;
+    --white200:#E6E6E6;
+}
+
+body {
+    background-color: #000000;
+}
+
+h1 {
+    font-family: 'NotoSerifDisplay-Regular';
+    font-size: 32px;
+}
+
+h1 span {
+    font-family: 'NotoSans-Black';
+}

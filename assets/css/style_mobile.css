@@ -1,0 +1,136 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--violet100);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 230px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 50px ;
+    border-bottom-left-radius: 50px ;
+}
+    .countdown__container,
+    .footertext__container,
+    .email__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+        .email__input {
+            background-color: var(--white000);
+        }
+            .email__input input {
+                border: none;
+            }
+                .button__validate {
+                    display: none;
+                }
+
+
+.logo__container {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.text__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--white000);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text__container h1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text__container p {
+    text-transform: none;
+    margin: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: var(--black400);
+}
+
+
+
+
+
+
+
+
+
+.column__container {
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.column1__container {
+    position: relative;
+    display: flex;
+    width: fit-content;
+    left: -65px;   
+}
+.column2__container {
+    position: relative;
+    display: flex;
+    width: fit-content;
+    left: -95px; 
+}
+.column3__container {
+    position: relative;
+    display: flex;
+    width: fit-content;
+    left: 0px; 
+}
+
+
+
+
+.pic1 {
+    background-image: url("../img/Image-2.jpg");
+    background-size: cover;
+}
+.pic2 {
+    background-image: url("../img/Image-3.jpg");
+    background-size: cover;
+}
+.pic3 {
+    background-image: url("../img/Image-1.jpg");
+    background-size: 200%;
+    background-position: center;
+}
+.logo {
+    background-image: url("../svg/Deklic_Logo_RVB_Couleurs_Fond_Foncé.svg");
+    background-position: center;
+}
+.square {
+    margin: 5px;
+    width: 30vw;
+    height: 13vh;
+    border-radius: 5px;
+}
+.color1 {
+    background-color: aqua;
+}
+.color2 {
+    background-color: yellow;
+}
+.color3 {
+    background-color: tomato;
+}
+.color4 {
+    background-color:springgreen;
+}
+.color5 {
+    background-color: violet;
+}
